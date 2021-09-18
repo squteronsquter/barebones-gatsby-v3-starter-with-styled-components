@@ -1,19 +1,14 @@
 import React from "react"
-import styled from "styled-components"
 
 const Footer = () => {
   return (
-    <Wrapper>
-      <footer>
-        <p>
-          &copy; {new Date().getFullYear()} <span>SimplyRecipes</span>. Built
-          with <a href="https://www.gatsbyjs.com/">Gatsby</a>
-        </p>
-      </footer>
-    </Wrapper>
+    <footer className="page-footer">
+      <p>
+        &copy; {new Date().getFullYear()} <span>SimplyRecipes</span>. Built with{" "}
+        <a href="https://www.gatsbyjs.com/">Gatsby</a>
+      </p>
+    </footer>
   )
 }
 
 export default Footer
-
-const Wrapper = styled.section``
