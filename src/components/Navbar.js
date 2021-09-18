@@ -42,6 +42,13 @@ export default function Navbar() {
             >
               About
             </Link>
+            <Link
+              to="/images"
+              className="nav-link"
+              activeClassName="active-link"
+            >
+              Images
+            </Link>
 
             <div className="nav-link contact-link">
               <Link to="/contact" className="btn">
