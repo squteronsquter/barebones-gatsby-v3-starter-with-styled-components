@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/Layout"
-// import "./index.css"
 import styled from "styled-components"
 
 export default function Contact() {
