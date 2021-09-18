@@ -24,31 +24,4 @@ export default function Navbar() {
   )
 }
 
-const Wrapper = styled.section`
-  font-size: 1.4em;
-  margin-bottom: 1em;
-  nav {
-    background-color: #ccc;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  ul {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
-  nav ul li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-    color: #2a2a2a;
-    padding: 1em 3em;
-  }
-  a:hover {
-    color: #2d4a7d;
-  }
-`
+const Wrapper = styled.section``

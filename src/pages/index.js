@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import "../assets/css/main.css"
+import "../assets/css/style.css"
 import styled from "styled-components"
 
 export default function Home() {
@@ -15,10 +15,4 @@ export default function Home() {
   )
 }
 
-const Wrapper = styled.section`
-  color: #000;
-  padding: 2em;
-  h1 {
-    font-size: 3em;
-  }
-`
+const Wrapper = styled.section``

@@ -16,18 +16,4 @@ const Footer = () => {
 
 export default Footer
 
-const Wrapper = styled.section`
-  background-color: #ccc;
-  margin-top: 2em;
-  display: flex;
-  height: 4em;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  a {
-    color: #2d4a7d;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-`
+const Wrapper = styled.section``

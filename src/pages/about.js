@@ -14,10 +14,4 @@ export default function About() {
   )
 }
 
-const Wrapper = styled.section`
-  color: #000;
-  padding: 2em;
-  h1 {
-    font-size: 3em;
-  }
-`
+const Wrapper = styled.section``
