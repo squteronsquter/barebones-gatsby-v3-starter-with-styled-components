@@ -1,5 +1,23 @@
 import React from "react"
+import Layout from "../components/Layout"
+import "./index.css"
+import styled from "styled-components"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <>
+      <Layout>
+        <Wrapper>
+          <h1>Hello Styled</h1>
+        </Wrapper>
+      </Layout>
+    </>
+  )
 }
+
+const Wrapper = styled.section`
+  color: #000;
+  h1 {
+    font-size: 3em;
+  }
+`
