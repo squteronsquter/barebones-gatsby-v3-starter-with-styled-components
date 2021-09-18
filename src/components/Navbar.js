@@ -1,27 +1,24 @@
 import React from "react"
-import styled from "styled-components"
+import { FiAlignJustify } from "react-icons/fi"
 import { Link } from "gatsby"
 
 export default function Navbar() {
   return (
     <>
-      <Wrapper>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
-      </Wrapper>
+      <nav>
+        <FiAlignJustify />
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
     </>
   )
 }
-
-const Wrapper = styled.section``
